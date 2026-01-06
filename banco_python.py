@@ -24,9 +24,12 @@ while True:
         except ValueError:
             print("Digite um valores númericos apenas!")
             continue
-        saldo += deposito
-        extrato.append(f'Depósito: +R${deposito:.2f}')
-        print(f'Seu saldo pós depósito é de R${saldo:.2f}')
+        if deposito < 0:
+            print('O valor de depósito deve ser um número positivo!!!')
+        else:
+            saldo += deposito
+            extrato.append(f'Depósito: +R${deposito:.2f}')
+            print(f'Seu saldo pós depósito é de R${saldo:.2f}')
     elif opcao == "s":
         if limites_saques > 0:
             print(f'Seu saldo atual é R${saldo:.2f}. \nLemrando que só são permitidos até {limites_saques} saques diários e lhe restam {limites_saques - numero_saques} saques para o dia de hoje.')
