@@ -40,8 +40,8 @@ Nesta fase inicial, implementei conceitos essenciais como:
 
 ## 📈 Próximos Passos (Roadmap)
 Pretendo evoluir este sistema aplicando os seguintes tópicos futuros:
-- [ ] Modularização do código usando **Funções**.
-- [ ] Criação de um sistema de cadastro de clientes e contas (Dicionários).
+- [x] Modularização do código usando **Funções**.
+- [x] Criação de um sistema de cadastro de clientes e contas (Dicionários).
 - [ ] Persistência de dados em arquivos `.txt` ou `.json`.
 - [ ] Aplicação de conceitos de **Programação Orientada a Objetos (POO)**.
 
